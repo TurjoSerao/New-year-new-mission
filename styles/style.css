@@ -36,3 +36,76 @@ body {
     text-align: center;
     margin-top: 0;
 }
+
+/* second section styles */
+.second {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.second-title {
+    color: #FF0000;
+    font-size: 65px;
+    margin: 0;
+}
+
+.second-sub {
+    color: #FF0000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.second-subtitle {
+    margin-top: 0;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.second-img {
+    width: 40%;
+}
+
+/* welcome section styles */
+.welcome {
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 100px;
+    align-items: center;
+    
+}
+
+.welcome-bg {
+    width: 250px;
+}
+
+.welcome-title {
+    color: white;
+    font-size: 72px;
+    line-height: 90px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.welcome-description {
+    color: #dadada;
+    font-size: 20px;
+}
+
+.join-button {
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.join-button:hover {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
