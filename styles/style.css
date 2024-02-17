@@ -75,11 +75,13 @@ body {
     justify-content: space-between;
     padding: 120px 100px;
     align-items: center;
+    height: 550px;
+    border-radius: 10px;
     
 }
 
 .welcome-bg {
-    width: 250px;
+    width: 350px;
 }
 
 .welcome-title {
@@ -109,3 +111,41 @@ body {
     font-size: 16px;
 }
 
+/* join now section styles */
+.join-now {
+    background: linear-gradient(#ff000034, #ffffff);
+    padding: 150px;
+    margin: 100px 0;
+    border-radius: 10px;
+    text-align: center;
+    /* height: 400px; */
+}
+
+.join-now-text {
+    font-size: 42px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.join-now-color {
+    color: red;
+}
+.button {
+    background-color: red;
+    border: 1px solid red;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    border: 1px solid red;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
