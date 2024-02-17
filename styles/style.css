@@ -299,3 +299,47 @@ body {
     transform: scale(1.1);
     
 }
+
+/* newsletter Section */
+.newsletter {
+    text-align: center;
+    margin: 70px 0;
+    padding: 100px;
+    background-color: rgba(255, 230, 230, 0.884);
+    border-radius: 10px;
+}
+
+.newsletter h3{
+    font-size: 42px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.newsletter p {
+    color: rgb(41, 41, 41);
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 0;
+}
+
+.newsletter-form {
+    padding: 20px 0;
+}
+
+.email-placeholder {
+    padding: 20px;
+    border: 1px solid white;
+    color: #383838;
+    border-radius: 25px 0 0 25px;
+    font-size: 20px;
+}
+
+.form-submit {
+    background-color: red;
+    padding: 20px;
+    border: 1px solid #ff0000;
+    margin-left: -5px; 
+    border-radius: 0 25px 25px 0;
+    color: white;
+    font-size: 20px;
+}
