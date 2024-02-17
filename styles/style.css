@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 20px 100px;
+    /* margin: 20px 100px; */
 }
 
 /* Hero Section styles */
@@ -18,6 +18,7 @@ body {
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    margin: 20px 100px;
 }
 
 .hero-subtitle {
@@ -40,6 +41,7 @@ body {
 .second {
     text-align: center;
     padding: 50px 0;
+    margin: 100px;
 }
 
 .second-title {
@@ -76,6 +78,7 @@ body {
     align-items: center;
     height: 550px;
     border-radius: 10px;
+    margin: 100px;
 
 }
 
@@ -114,7 +117,7 @@ body {
 .join-now {
     background: linear-gradient(#ff000034, #ffffff);
     padding: 150px;
-    margin: 100px 0;
+    margin: 100px 100px;
     border-radius: 10px;
     text-align: center;
     /* height: 400px; */
@@ -157,6 +160,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    margin: 0 100px;
 }
 
 .coming-soon-subtitle {
@@ -189,7 +193,7 @@ body {
 
 .holiday-sale {
     padding: 50px;
-    margin: 50px 0;
+    margin: 50px 100px;
 }
 
 .holiday-sale-container {
@@ -216,12 +220,6 @@ body {
 
 .holiday-sale-img {
     position: relative;
-
-    /* background-image: url('/resources/Rectangle\ 1.png'), url('/resources/Rectangle\ 2.png'), url('../resources/Group\ 75.png');
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: bottom right, bottom, bottom left;
-    background-size: auto; */
 }
 
 .right-img {
@@ -247,7 +245,6 @@ body {
 }
 
 .image-middle {
-    /* width: 300px; */
     border: 5px solid white;
     position: absolute;
     top: 50px;
@@ -258,6 +255,7 @@ body {
 /* portfolio section styles */
 .portfolio {
     margin-top: 650px;
+    margin: 650px 100px 0 100px;
 }
 
 .portfolio h4 {
@@ -303,7 +301,7 @@ body {
 /* newsletter Section */
 .newsletter {
     text-align: center;
-    margin: 70px 0;
+    margin: 70px 100px;
     padding: 100px;
     background-color: rgba(255, 230, 230, 0.884);
     border-radius: 10px;
@@ -342,4 +340,52 @@ body {
     border-radius: 0 25px 25px 0;
     color: white;
     font-size: 20px;
+}
+
+/* footer styles */
+.footer {
+    width: 100%;
+    background-color: black;
+    padding: 50px 100px;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-link {
+    display:list-item;
+}
+
+hr {
+    color: #1a1a1a0a;
+    width: 100%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons img {
+    margin-right: 20px;
 }
