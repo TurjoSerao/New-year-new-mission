@@ -254,3 +254,48 @@ body {
     left: 1000px;
     right: 0;
 }
+
+/* portfolio section styles */
+.portfolio {
+    margin-top: 650px;
+}
+
+.portfolio h4 {
+    color: red;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.portfolio h3 {
+    font-size: 62px;
+    margin: 0;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 15px;
+}
+.gallery-item:hover {
+    overflow: hidden;
+    border-radius: 15px;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+    
+}
